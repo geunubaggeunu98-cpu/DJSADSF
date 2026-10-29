@@ -1,0 +1,10 @@
+Nexus 관리자 설정 (v31)
+
+관리자 아이디: nexus_admin
+관리자 이메일: geunubaggeunu98@gmail.com
+
+배포: GitHub 저장소에 압축 해제한 소스를 올리고 Render Blueprint 배포를 실행하세요.
+Render 환경 변수 NEXUS_ADMIN_PASSWORD에 본인이 정한 비밀번호를 Render 대시보드에서 직접 입력하세요. 비밀번호는 ZIP에 저장하지 않았습니다.
+APP_SECRET는 Render가 생성합니다. 저장 데이터는 Render 영구 디스크를 사용해야 보존됩니다.
+
+중요: 현재 Netlify 정적 사이트에는 이 관리자 계정이 생기지 않습니다. 운영용 Python 웹서버 배포가 완료된 후에만 실제 관리자 로그인이 됩니다.
